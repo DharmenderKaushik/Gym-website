@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY GYM</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin=0%;
+            padding: 0%;
+            background-image: url("abs-1850926_1920.jpg");
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .left{
+            
+            color: white;
+            position:absolute;
+            display: inline-block;
+            top: 11px;
+            
+            left: 39px;
+            
+            
+        }
+        .left img{
+            width: 130px;
+        }
+        .left div{
+            text-align: center;
+            font-size: 28px;
+            line-height: 18px;
+        }
+        .center{
+            
+            color: white;
+            display: block;
+            width: 36%;
+            margin: 23px auto;
+            
+        }
+        .right{
+            
+            color: white;
+            position:absolute;
+            display: inline-block;
+            right: 14px;
+            top: 20px;
+            
+           
+        }
+        .right img{
+            width: 27px;
+            padding: 8px;
+            cursor: pointer;
+            
+        }
+        .right img:hover{
+            background-color: darkorange;
+        }
+
+        .navbar{
+            
+            display: inline-block;
+        }
+       .navbar li{
+           display: inline-block;
+           font-size: 20px;
+       }
+       .navbar li a{
+           text-decoration: none;
+           color: white;
+           padding: 34px 20px 34px 12px;
+           
+       }
+       .navbar li a:hover,  .navbar li a.active{
+           text-decoration: underline;
+           color:rgb(227, 230, 74);
+       }
+       .container{
+           border: 2px solid white;
+           padding: 75px;
+           margin: 108px 40px;
+           color: white;
+           width: 33%;
+           float: right;
+           border-radius: 12px;
+       }
+       .btn{
+           width: 15%;
+           border:2px solid black;
+           border-radius: 7px;
+           font-size: 20px;
+           background-color: burlywood;
+           cursor: pointer;
+           
+           
+           
+       }
+       .form input{
+           text-align: center;
+           display: block;
+           margin: 11px auto;
+           border: 2px solid black;
+           border-radius: 10px;
+           padding: 1px;
+           width:508px ;
+           font-family: 'Baloo Bhai 2', cursive;
+           font-size: 25px;
+
+       }
+       .container h1{
+           text-align: center;
+       }
+       .container button
+       {
+           width: 140px;
+           display: block;
+           margin: 5px auto;
+       }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+               <img src="gym-1048852_1280.png">
+        <div>
+            My GYM
+        </div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+                
+            </ul>
+
+        </div>
+        <div class="right">
+           <img src="instagram-1581266_1280.jpg" >
+           <img src="icons-842893_1280.png" >
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your Mobile.NO">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your E-Mail Id">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your Plan">
+            </div>
+            <button class="btn" value="submit">submit</button>
+            
+    </div>
+</body>
+</html>
